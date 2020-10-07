@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap')
+
+body
+	display: flex
+	padding: 0px
+	margin: 0px
+	justify-content: center
+	align-items: center
+	align-content: center
+	width: 100vw
+	height: 100vh
+	background-color: #ffffff
+	color: #e0e0e0
+	*
+		outline: none
+		font-family: "Noto Sans"
+
+.card
+	margin: 0px
+	padding: 57px
+	width: 473px
+	height: 634px
+
+	border: 0.05467468562055768vw solid #bdbdbd
+	border-radius: 1.3vw
+
+	display: flex
+	flex-direction: column
+	justify-content: space-evenly
+
+.icon
+	background: url(./assets/devchallenges.svg) no-repeat
+	background-repeat: no-repeat
+	background-size: 180px	40px
+	background-position: 0%
+	width: 180px	
+	height: 40px
+
+.input
+	display: flex
+	flex-direction: row
+	align-items: center
+	margin-top: 20px
+
+input
+	border: 1px solid #bdbdbd
+	box-sizing: border-box
+	border-radius: 8px
+	background-color: #00000000
+	height: 48px
+	border-left-width: 0px
+	border-top-left-radius: 0px
+	border-bottom-left-radius: 0px
+	padding-left: 6px
+	font-size: 17px
+	width: 100%
+	color: #e0e0e0
+
+i
+	display: block
+	box-sizing: border-box
+	padding-right: 10px
+	border-left: 1px solid #bdbdbd
+	border-top: 1px solid #bdbdbd
+	border-bottom: 1px solid #bdbdbd
+	border-top-left-radius: 8px
+	border-bottom-left-radius: 8px
+	padding: 9px
+	padding-left: 12px
+	font-size: 1.75em
+
+button
+	height: 38px
+	width: 100%
+	margin-top: 30px
+	background: #2F80ED
+	border-radius: 8px
+	border: none
+	color: #FFFFFF
+
+	font-weight: 600
+	font-size: 16px
+	line-height: 22px
+
+	text-align: center
+	letter-spacing: -0.035em
+
+.title
+	font-style: normal
+	font-weight: 600
+	font-size: 18px
+	line-height: 25px
+	letter-spacing: -0.035em
+	color: #000000
+
+.text
+	font-style: normal
+	font-weight: normal
+	font-size: 16px
+	line-height: 22px
+	letter-spacing: -0.035em
+	color: #000000
+
+p
+	margin: 0px
+
+.login
+	font-style: normal
+	font-weight: normal
+	font-size: 14px
+	line-height: 19px
+
+	text-align: center
+	letter-spacing: -0.035em
+
+	color: #828282
+
+a
+	color: #2D9CDB
+	text-decoration: none
+
+
+@media (prefers-color-scheme: dark)
+	body
+		background-color: #252329
+		color: #e0e0e0
+	
+	.icon
+		background-image: url(./assets/devchallenges-light.svg)
+
+	.title
+		color: #e0e0e0
+
+	.text
+		color: #e0e0e0
+
+@media only screen and (max-width: 1080px)
+	
+	.card
+		flex: 1
+		padding: 35px
+		padding-bottom: 0px
+
+	.icon
+		background-repeat: no-repeat
+		background-size: 180px	40px
+		background-position: 0%
+		width: 180px	
+		height: 40px
+
+	input
+		font-size: 15px
